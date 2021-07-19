@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> MooMooGrocery- Fruits & Vegetables </title>
+    <meta charset="utf-8"/>
+<style>
+
+p{
+    color: white; 
+    text-align: center;
+    font-size: 15px;
+    font-family: inherit; 
+}
+
+.header{
+  padding: 60px;
+  text-align: center;
+  background-image: url("images/tomato-header.jpg");
+  color: white;
+  font-size: 30px;
+  font-family:'Open Sans', sans-serif; 
+}
+
+h1{
+    text-align: center;
+}
+
+.products-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: 0.5fr;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+    }
+
+.item {
+  background-color: rgba(255, 255, 255, 0.8);
+  
+  padding: 20px;
+  font-size: 30px;
+  align-items: center;
+  justify-items:center; 
+}
+
+img{
+    width: 200px;
+	height: 200px;
+	object-fit: cover;
+    display:flex; 
+    padding: 10px;
+    justify-content:center; 
+}
+
+img:hover
+    {
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+    }
+
+ .side-menu ul {
+  list-style-type: none;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 20%;
+
+}
+
+.side-menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #fff0f0;
+  color: #3f3f3f;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.side-menu li:hover {
+  background-color: #cc0009;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+<div class="header">
+  <h1>Fruits and Vegetables</h1>
+  <p>Come look at our selection of fruits and vegetables</p>
+</div>
+
+<div class="row">
+  <div class="side-menu">
+    <ul>
+      <li>Meat</li>
+      <a href="fruit-veg.html"><li>Fruit and Vegetables</li></a> 
+      <li>Baked Goods</li>
+      <li>Dairy Products</li>
+      <li>Beverages</li>
+    </ul>
+  </div>
+
+  <div class="all-products">
+    <h1>Products</h1>
+    
+        <div class="products-grid">
+                <div class="item">
+                    <a href="apples.html"><img src="images/apple.jpg"></a>
+                </div>
+
+                <div class="item">
+                                <a href="pear.html"><img src="images/pear.jpg"></a>
+                            </div>
+ 
+                            <div class="item">
+                                <a href="bananas.html"><img src="images/banana.jpg"></a>
+                            </div>
+                        
+                        
+                            <div class="item">
+                                <a href="carrot.html"><img src="images/carrots.jpg"></a>
+                            </div>
+                        
+                            <div class="item">
+                                <a href="radish.html"><img src="images/radish.jpg"></a>
+                            </div>
+                    
+                            <div class="tomatoes">
+                                <a href="tomato.html"><img src="images/tomato.jpg"></a>
+                            </div>
+        </div>
+
+        
+           
+    
+  </div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> MooMooGrocery Oder Edit </title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="css/styles-backstore.css"/>
+    </head>
+    <body>
+
+        <header class="backstore-header">
+            <a href=#>
+                <img class="backstore-deader-logo" src="images/moomoologo.png" alt="MooMooGrocery">
+            </a>
+            <a class="sign-out-button" href=#>Sign Out</a>
+        </header>
+
+        
+        <div class="container">
+            <h1>Edit or Add an Order</h1>
+            <h3>Specify, edit or add details to a specific order.</h3>
+
+            <div class="basic-info">
+                <form class="orderDetails" action method="post" enctype="text/plain">
+                    <label for="orderID">Order ID: </label>
+                    <input class="details-input" type="text" id="orderID" name="orderID" value>
+<br>
+                    <label for="customerID">Customer ID: </label>
+                    <input class="details-input" type="text" id="customerID" name="customerID" value>
+<br>
+                    <label for="nbItems">Total number of items: </label>
+                    <input class="details-input" type="text" id="nbItems" name="nbItems" value>
+<br>
+                    <input class="details-input" type="submit" id="action" name="action" value="Submit">
+                </form>
+            </div>
+            <br>
+            <div class="order-products">
+                <form class="orderDetails" action method="post" enctype="text/plain">
+                    <table class="backstore-list">
+                        <tbody>
+                            <tr class="backstore-teable-header-row">
+                                <th class="backstore-table-header">Product ID</th>
+                                <th class="backstore-table-header">Product name</th>
+                                <th class="backstore-table-header">Quantity purchased</th>
+                                <th class="backstore-table-header">Price</th>
+                                <th class="backstore-table-header">Actions</th>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="roductID"> </label>
+                                   <input class="product-input" type="text" id="productID" name="productID" value="123456">     
+                                </td>
+
+                                <td>
+                                    <label for="productName"> </label>
+                                   <input class="product-input" type="text" id="productName" name="productName" value="Pear">     
+                                </td>
+
+                                <td>
+                                    <label for="quantity"> </label>
+                                   <input class="product-input" type="text" id="quantity" name="quantity" value="2">     
+                                </td>
+
+                                <td>
+                                    <label for="price"> </label>
+                                   <input class="product-input" type="text" id="price" name="price" value="0.87">     
+                                </td>
+
+                                <td>
+                                    <label for="actions"></label>
+                                   <input class="product-input" type="submit" id="actions" name="action" value="Submit">   
+                                   <label for="actions"></label>
+                                   <input class="product-input" type="button" id="actions" name="action" value="Delete">
+                                     
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="roductID"> </label>
+                                   <input class="product-input" type="text" id="productID" name="productID" value>     
+                                </td>
+
+                                <td>
+                                    <label for="productName"> </label>
+                                   <input class="product-input" type="text" id="productName" name="productName" value>     
+                                </td>
+
+                                <td>
+                                    <label for="quantity"> </label>
+                                   <input class="product-input" type="text" id="quantity" name="quantity" value>     
+                                </td>
+
+                                <td>
+                                    <label for="price"> </label>
+                                   <input class="product-input" type="text" id="price" name="price" value>     
+                                </td>
+
+                                <td>
+                                    <label for="actions"></label>
+                                   <input class="product-input" type="submit" id="actions" name="action" value="Submit">   
+                                   <label for="actions"></label>
+                                   <input class="product-input" type="button" id="actions" name="action" value="Delete">
+                                     
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+                <br>
+            <input class="save-button" type="submit" value="Save all Changes"> 
+        </div>
+       
+    </body>
+</html>
