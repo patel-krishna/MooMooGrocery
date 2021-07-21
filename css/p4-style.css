@@ -1,17 +1,22 @@
 body{
     background-color: #f7e0da ;
-    background-image: url("blueberries2.jpg");
+    background-image: url("https://images.pexels.com/photos/4022091/pexels-photo-4022091.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
 
 .title{
-    font-family: 'Open Sans', sans-serif;
+    font-family: inherit;
     text-align: center; 
     color: white;
     
 }
 
+header{
+    width:100%;
+    background-color:white;
+}
+
 #wrapper{
-  max-width: 70%;
+  max-width: 60%;
   margin: auto;
   align-content: center;
   display: table;
@@ -95,7 +100,8 @@ body{
 }
 
 .remove {
-	position:absolute;
+	position:static;
+    display: flex;
 	bottom: 20px;
 	right: 20px;
 	padding: 10px 25px;
@@ -136,6 +142,11 @@ body{
     margin: 8px;
     margin-left: 10px;
     font: 'Open Sans'; 
-    width: relative;
-    
+    color: #3f3f3f;
+    font-size: 20px;
+    width: relative;  
+}
+
+.total{
+    color:#cc0009;
 }
